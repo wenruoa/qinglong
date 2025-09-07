@@ -47,7 +47,7 @@ class EnshanSign:
         
         # 请求会话
         self.session = requests.Session()
-        self.session.headers.update(self.headers)
+        self.session。headers.update(self.headers)
         
         # 最大重试次数
         self.max_retries = 3
