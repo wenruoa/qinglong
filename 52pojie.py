@@ -7,6 +7,7 @@ Author: Mrzqd
 Date: 2024/8/22 18:30 (Original), 2025/06/25 (Refactor)
 cron: 30 7 * * *
 new Env('吾爱破解签到');
+将获取到的cookie填写进脚本的cookies = ""的引号里； 本地运行，青龙(青龙可以在环境变量添加PJ52_COOKIE，多账户直接添加多个PJ52_COOKIE即可,青龙的环境变量还需加PJ52_TOKEN)运行均可（需要requests和bs4依赖）
 """
 import json
 import os
